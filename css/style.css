@@ -1,0 +1,620 @@
+@font-face {
+    font-family: 'Bebas Neue Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue Regular'), url('../fonts/BebasNeue\ Regular.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Bebas Neue Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bebas Neue Bold'), url('../fonts/BebasNeue\ Bold.woff') format('woff');
+    }
+@font-face {
+    font-family: 'Alfa SlabOne Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Alfa SlabOne Regular'), url('../fonts/AlfaSlabOne-Regular.woff') format('woff');
+    }
+
+/* ============================================================================ Common CSS ============================================================================ */
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #3d2514;
+    font-size: 16px;
+    font-family: 'Bebas Neue Regular';
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+a {
+    color: #3d2514;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: normal;
+    color: #3d2514;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px
+}
+
+h2 {
+    font-size: 22px
+}
+
+h3 {
+    font-size: 18px
+}
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 14px
+}
+
+h6 {
+    font-size: 13px
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none!important;
+    opacity: 1
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+/* ============================================================================ Common CSS ============================================================================ */
+
+/* ============================================================================ Header ============================================================================ */
+#homepage {
+    width: 100%;
+    /* height: 700px; */
+    background-image: url('../img/mainbg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    backface-visibility: visible;
+    padding: 20px 0;
+}
+/* ============================ Navbar Start ============================ */
+.nav_bg {
+    background-color: transparent !important;
+}
+.logo_part {
+    width: 100%;
+}
+.logo {
+    width: 100%;
+}
+.menu {}
+.menu ul {}
+.menu ul li {}
+.menu ul li a {
+    color: #3d2514 !important;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+.menu ul li:last-child a {
+    margin-right: 0px;
+}
+/* ============================ Navbar End ============================ */
+
+/* ============================ Banner Part Start ============================ */
+.bannerPart {
+    padding: 50px 0;
+}
+.leftPart {}
+.btext {
+    width: 80%;
+    font-family: 'Bebas Neue Regular';
+    font-size: 20px;    
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 2px solid #3d2514;
+    border-style: dashed;
+}
+.bh1 {
+    font-family: 'Alfa SlabOne Regular';
+    font-size: 135px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px white;
+    margin: 0;
+    padding: 0;
+}
+.bh2 {
+    font-family: 'Alfa SlabOne Regular';
+    font-size: 70px;
+    text-transform: uppercase;
+    text-shadow: 5px 5px white;
+    margin: 0;
+    padding: 0;
+}
+.bimage {
+    width: 100%;
+}
+.bimageShadow {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 400px;
+    height: 30px;
+    transition: .4s;
+    transform: translateX(-50%);
+    -webkit-transition: .4s;
+    -webkit-transform: translateX(-50%);
+    -moz-transition: .4s;
+    -moz-transform: translateX(-50%);
+    
+    border-radius: 100%;
+    background: radial-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.0), rgba(0,0,0,0.0));
+  }
+/* ============================ Banner Part End ============================ */
+/* ============================================================================ Header ============================================================================ */
+/* ============================================================================ Promo Start Here ============================================================================ */
+#promo {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.leftPromo {
+    margin-left: 25px;
+}
+.promo01 {
+    position: relative;
+    cursor: pointer;
+}
+.promo01 img {}
+.promo01Text {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.promo01Text h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 0;
+}
+.promo01Text h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+}
+.promoRight {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100%;
+}
+.proRtop {
+    position: relative;
+    cursor: pointer;
+}
+.proRtop img {}
+.proRtopText {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 36%;
+}
+.proRtop h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.proRtop h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+.proRbottom {
+    position: relative;
+    cursor: pointer;
+}
+.proRbottom img {}
+.proRbottomText {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.proRbottomText h4 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.proRbottomText h2 {
+    color: white;
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+.promoBtn {
+    text-align: center;
+    margin-top: 40px;
+}
+.proButton {
+    border: none;
+    color: #3d2514;
+    background-color: #ffc045;
+    padding: 10px 20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+.proButton:hover {
+    border-radius: 15px;
+}
+/* ============================================================================ Promo End Here ============================================================================ */
+
+/* ============================================================================ Choose & Enjoy Start Here ============================================================================ */
+#choose {}
+.chooseTitle {
+    text-align: center;
+}
+.chooseTitle h1 {
+    font-family: 'Alfa SlabOne Regular';
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+.chooseSubTitle {
+    text-align: center;
+}
+.chooseSubTitle p {
+    font-family: 'Bebas Neue Regular';
+    font-size: 16px;
+    letter-spacing: 2px;
+    width: 70%;
+    margin: 0 auto;
+}
+/* Slider */
+.slider {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    color: rgb(32, 21, 21);
+  }
+  .slider .parent-slide {
+    padding: 15px;
+  }
+  .slider img {
+    display: block;
+    margin: auto;
+  }
+.chSlContent {}
+.sliderImage {
+    text-align: center;
+}
+.sliderImage img {
+    width: 70%;
+}
+.sliderImage:hover img {
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+@keyframes mymove {
+    0%   {top:0px;}
+    50%  {top:10px;}
+    100% {top:0px;}
+  }
+.sliderTitle h2 {
+    font-family: 'Bebas Neue Bold';
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.sliderText p {
+    font-family: 'Bebas Neue Regular';
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.sliderbtn a {
+    font-family: 'Alfa SlabOne Regular';
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding: 15px 37px;
+    display: block;
+    background: #bf2222;
+    width: 50%;
+    margin: 0 auto;
+}
+.sliderbtn:hover a {
+    background: rgb(105, 170, 21);
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #bf2222;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* Slider */
+/* ============================================================================ Choose & Enjoy End Here ============================================================================ */
+
+/* ============================================================================ Event Carousel Start Here ============================================================================ */
+#events {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.eventslider {
+    /* border: 1px solid black; */
+    padding: 20px;
+}
+.eventslider {
+    box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.carousel-indicators {
+    justify-content: flex-start;
+    margin-bottom: -10px;
+    margin-left: -3px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: #bf2222;
+}
+.eventLeft {}
+.eventLeft h4 {
+    font-family: 'Bebas Neue Bold';
+    font-size: 30px;
+    letter-spacing: 4px;
+    padding-bottom: 0px;
+}
+.eventLeft h1 {
+    font-family: 'Alfa SlabOne Regular';
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.eventLeft p {
+    font-family: 'Bebas Neue Bold';
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 35px;
+}
+.eventRight {}
+.eventRight img {
+    width: 100%;
+}
+/* ============================================================================ Event Carousel End Here ============================================================================ */
+
+/* ============================================================================ Reservation Start Here ============================================================================ */
+#reservation {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+.resImg01 {
+    position: absolute;
+    top: -70px;
+    left: -76px;
+}
+.resImg02 {
+    position: absolute;
+    left: 15%;
+    top: 108px;
+    z-index: -1;
+}
+.resImg03 {
+    position: absolute;
+    right: -215px;
+    top: 28%;
+}
+.reservationArea {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.resSubTitle {
+    font-family: 'Bebas Neue Bold';
+}
+.resTitle {
+    font-family: 'Alfa SlabOne Regular';
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+.resFormInput {
+    /* margin-top: 30px; */
+}
+.form_margin {
+    margin-top: 30px;
+}
+.form-control {
+    font-family: 'Bebas Neue Regular';
+    letter-spacing: 3px;
+    padding: 15px 10px;
+}
+.resbtn {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #bf2222;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-align: center;
+}
+.resbtn a {
+    font-family: 'Alfa SlabOne Regular';
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* ============================================================================ Reservation End Here ============================================================================ */
+
+/* ============================================================================ Footer Start Here ============================================================================ */
+#footer {
+    /* background-color: #3d2514; */
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footerBox {
+    background-image: url('../img/footerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+.footerTopLeft {}
+.footerLogo {}
+.footerLogo img {}
+.footerText {}
+.footerText p {
+    color: white;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+.footerTopRight {
+    margin-left: 50px;
+}
+.footerTopRight ul li {
+    border: none;
+}
+.no_bg {
+    background-color: transparent;
+}
+.footerIcon {
+    width: 5%;
+    margin-right: 20px;
+}
+.footerIcon img {
+    width: 100%;
+}
+.footerAddText {
+    font-family: 'Bebas Neue Bold';
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 4px;
+}
+.foobtm {
+    margin-top: 20px;
+}
+.foobtmLeft {}
+.foobtmLeft p {
+    font-family: 'Bebas Neue Bold';
+    color: white;
+    letter-spacing: 3px;
+}
+.foobtmRight {}
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.socialMedia a {}
+.socialMedia a img {}
+/* ============================================================================ Reservation End Here ============================================================================ */

@@ -1,0 +1,874 @@
+/* // `xs` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 320px) {
+    /* Navbar Start */
+    .logo_part {
+        width: 150px;
+    }
+    /* Navbar End */
+/* ============================ Banner Part Start ============================ */
+.bannerPart {
+    padding: 20px 0;
+}
+.leftPart {
+    text-align: center;
+}
+.btext {
+    width: 95%;
+    margin: 0 auto;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+.bh1 {
+    font-size: 50px;
+    margin: 15px 0;
+    text-shadow: 2px 3px 0px white;
+}
+.bh2 {
+    font-size: 35px;
+    text-shadow: 2px 3px 0px white;
+}
+.bimage {
+    width: 90%;
+    margin: 0 auto;
+}
+/* ============================ Banner Part End ============================ */
+/* ============================ Promotion Start ============================ */
+#promo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.leftPromo {
+    margin-left: 0;
+}
+.promo01Text h4 {
+    font-size: 20px;
+}
+.promo01Text h2 {
+    font-size: 25px;
+    width: 50%;
+}
+.promoRight {
+    margin-top: 20px;
+}
+.proRtop h4 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.proRtop h2 {
+    font-size: 20px;
+    line-height: 1;
+}
+.proRbottomText h4 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.proRbottomText h2 {
+    font-size: 20px;
+}
+/* ============================ Promotion End ============================ */
+/* ============================ Choose & Enjoy Start Here ============================ */
+.chooseTitle h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.chooseSubTitle p {
+    width: 100%;
+}
+.sliderTitle h2 {
+    font-size: 25px;
+    letter-spacing: 0px;
+}
+.sliderText {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sliderbtn a {
+    padding: 10px 0px;
+    width: 75%;
+}
+/* ============================ Choose & Enjoy End Here ============================ */
+
+    /* ============================ Events Start Here ============================ */
+    .eventslider {
+        padding-bottom: 40px;
+    }
+    .eventLeft {
+        text-align: center;
+    }
+    .eventLeft h4 {
+        font-size: 20px !important;
+    }
+    .eventLeft h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .eventLeft p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 35px;
+        background-color: #bf2222;
+    }
+    .carousel-indicators {
+        margin-bottom: -37px;
+        margin-left: 40%;
+    }
+    /* ============================ Events End Here ============================ */
+
+    /* ============================ Reservation Start Here ============================ */
+    #reservation {
+        padding: 30px 0;
+    }
+    .reservationArea {
+        width: 90%;
+    }
+    .resTitle {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .resImg01, .resImg02, .resImg03 {
+        display: none;
+    }
+    .resbtn a {
+        letter-spacing: 7px;
+    }
+    /* ============================ Reservation Start Here ============================ */
+    #reservation {
+        padding: 30px 0;
+    }
+    .reservationArea {
+        width: 90%;
+    }
+    .resImg01, .resImg02, .resImg03 {
+        display: none;
+    }
+    .resbtn a {
+        letter-spacing: 7px;
+    }
+    /* ============================ Reservation End Here ============================ */
+    /* ============================ Footer Start Here ============================ */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .footerTopLeft {
+        text-align: center;
+    }
+    .footerLogo {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footerLogo img {
+        width: 100%;
+    }
+    .footerText p {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    .footerTopRight {
+        margin-left: 0;
+    }
+    .footerTopRight ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 15px;
+    }
+    .footerAddText {
+        letter-spacing: 1px;
+    }
+    .foobtmLeft {
+        text-align: center;
+    }
+    .foobtmLeft p {
+        font-family: 'Bebas Neue Bold';
+        color: white;
+        letter-spacing: 1px;
+        line-height: 17px;
+        padding-bottom: 20px;
+    }
+    .socialMedia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* ============================ Footer End Here ============================ */
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 320.10px) and (max-width: 575.98px) {
+    /* Navbar Start */
+    .logo_part {
+        width: 200px;
+    }
+    /* Navbar End */
+    /* ============================ Banner Part Start ============================ */
+    .bannerPart {
+        padding: 20px 0;
+    }
+    .leftPart {
+        text-align: center;
+    }
+    .btext {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .bh1 {
+        font-size: 50px;
+        margin: 15px 0;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bh2 {
+        font-size: 35px;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bimage {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ============================ Banner Part End ============================ */
+    /* ============================ Promotion Start ============================ */
+    #promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .leftPromo {
+        margin-left: 0;
+    }
+    .promo01Text h4 {
+        font-size: 20px;
+    }
+    .promo01Text h2 {
+        font-size: 25px;
+        width: 50%;
+    }
+    .promoRight {
+        margin-top: 20px;
+    }
+    .proRtop h4 {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .proRtop h2 {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .proRbottomText h4 {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .proRbottomText h2 {
+        font-size: 20px;
+    }
+    /* ============================ Promotion End ============================ */
+
+    /* ============================ Events Start Here ============================ */
+    .eventslider {
+        padding-bottom: 40px;
+    }
+    .eventLeft {
+        text-align: center;
+    }
+    .eventLeft h4 {
+        font-size: 20px !important;
+    }
+    .eventLeft h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .eventLeft p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 35px;
+        background-color: #bf2222;
+    }
+    .carousel-indicators {
+        margin-bottom: -37px;
+        margin-left: 40%;
+    }
+    /* ============================ Events End Here ============================ */
+
+    /* ============================ Reservation Start Here ============================ */
+    #reservation {
+        padding: 30px 0;
+    }
+    .reservationArea {
+        width: 90%;
+    }
+    .resTitle {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-bottom: 0px;
+    }
+    .resImg01, .resImg02, .resImg03 {
+        display: none;
+    }
+    .resbtn a {
+        letter-spacing: 7px;
+    }
+    /* ============================ Reservation End Here ============================ */
+
+    /* ============================ Footer Start Here ============================ */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .footerTopLeft {
+        text-align: center;
+    }
+    .footerLogo {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footerLogo img {
+        width: 100%;
+    }
+    .footerText p {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    .footerTopRight {
+        margin-left: 0;
+    }
+    .footerTopRight ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 15px;
+    }
+    .footerAddText {
+        letter-spacing: 1px;
+    }
+    .foobtmLeft {
+        text-align: center;
+    }
+    .foobtmLeft p {
+        font-family: 'Bebas Neue Bold';
+        color: white;
+        letter-spacing: 1px;
+        line-height: 17px;
+        padding-bottom: 20px;
+    }
+    .socialMedia {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 70%;
+        margin: 0 auto;
+    }
+    /* ============================ Footer End Here ============================ */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* ============================ Banner Part Start ============================ */
+    .bannerPart {
+        padding: 20px 0;
+    }
+    .leftPart {
+        text-align: center;
+    }
+    .btext {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 16px;
+        letter-spacing: 4px;
+    }
+    .bh1 {
+        font-size: 90px;
+        margin: 15px 0;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bh2 {
+        font-size: 60px;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bimage {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ============================ Banner Part End ============================ */
+    /* ============================ Promotion Start ============================ */
+    #promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .leftPromo {
+        margin-left: 0;
+    }
+    .promo01Text h4 {
+        font-size: 20px;
+    }
+    .promo01Text h2 {
+        font-size: 30px;
+    }
+    .promoRight {
+        margin-top: 20px;
+    }
+    .proRtop h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .proRtop h2 {
+        font-size: 30px;
+    }
+    .proRbottomText h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .proRbottomText h2 {
+        font-size: 30px;
+    }
+    /* ============================ Promotion End ============================ */
+    /* ============================ Choose & Enjoy Start Here ============================ */
+    .sliderTitle h2 {
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .sliderText {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sliderbtn a {
+        padding: 10px 0px;
+        width: 75%;
+    }
+    /* ============================ Choose & Enjoy End Here ============================ */
+
+    /* ============================ Events Start Here ============================ */
+    .eventslider {
+        padding-bottom: 40px;
+    }
+    .eventLeft {
+        text-align: center;
+    }
+    .eventLeft h4 {
+        font-size: 20px !important;
+    }
+    .eventLeft h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .eventLeft p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 35px;
+        background-color: #bf2222;
+    }
+    .carousel-indicators {
+        margin-bottom: -37px;
+        margin-left: 40%;
+    }
+    /* ============================ Events End Here ============================ */
+
+    /* ============================ Reservation Start Here ============================ */
+    #reservation {
+        padding: 30px 0;
+    }
+    .reservationArea {
+        width: 90%;
+    }
+    .resImg01, .resImg02, .resImg03 {
+        display: none;
+    }
+    .resbtn a {
+        letter-spacing: 7px;
+    }
+    /* ============================ Reservation End Here ============================ */
+
+    /* ============================ Footer Start Here ============================ */
+    #footer {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .footerTopLeft {
+        text-align: center;
+    }
+    .footerLogo {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footerLogo img {
+        width: 100%;
+    }
+    .footerText p {
+        margin-top: 20px;
+        letter-spacing: 1px;
+        line-height: 18px;
+    }
+    .footerTopRight {
+        margin-left: 0;
+    }
+    .footerTopRight ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 15px;
+    }
+    .footerAddText {
+        letter-spacing: 1px;
+    }
+    /* ============================ Footer End Here ============================ */
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+        /* ============================ Banner Part Start ============================ */
+        .bannerPart {
+            padding: 20px 0;
+        }
+        .btext {
+            width: 95%;
+            margin: 0 auto;
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+        .bh1 {
+            font-size: 70px;
+            margin: 10px 0;
+            text-shadow: 2px 3px 0px white;
+        }
+        .bh2 {
+            font-size: 50px;
+            text-shadow: 2px 3px 0px white;
+        }
+        .bimage {
+            width: 90%;
+            margin: 0 auto;
+        }
+        /* ============================ Banner Part End ============================ */
+        /* ============================ Promotion Start ============================ */
+        #promo {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .leftPromo {
+            margin-left: 0;
+        }
+        .promo01Text {
+            top: 20px;
+            left: 20px;
+        }
+        .promo01Text h4 {
+            font-size: 20px;
+        }
+        .promo01Text h2 {
+            font-size: 30px;
+        }
+        .proRtopText {
+            top: 20px;
+            left: 20px;
+            width: 80%;
+        }
+        .promoRight {
+            margin-top: 0;
+        }
+        .proRtop h4 {
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        .proRtop h2 {
+            font-size: 30px;
+        }
+        .proRbottomText {
+            top: 20px;
+            left: 20px;
+        }
+        .proRbottomText h4 {
+            font-size: 20px;
+            margin-bottom: 0px;
+        }
+        .proRbottomText h2 {
+            font-size: 30px;
+        }
+        /* ============================ Promotion End ============================ */
+
+        /* ============================ Choose & Enjoy Start Here ============================ */
+        .sliderTitle h2 {
+            font-size: 25px;
+            letter-spacing: 0px;
+        }
+        .sliderText {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .sliderbtn a {
+            padding: 10px 0px;
+            width: 75%;
+        }
+        /* ============================ Choose & Enjoy End Here ============================ */
+
+        /* ============================ Events Start Here ============================ */
+        .eventLeft h4 {
+            font-size: 20px !important;
+        }
+        .eventLeft h1 {
+            font-size: 20px;
+            letter-spacing: 2px;
+            padding-bottom: 10px;
+        }
+        .eventLeft p {
+            font-size: 13px;
+            line-height: 13px;
+        }
+        .carousel-indicators [data-bs-target] {
+            width: 10px;
+            height: 30px;
+        }
+        /* ============================ Events End Here ============================ */
+
+        /* ============================ Reservation Start Here ============================ */
+        .reservationArea {
+            width: 75%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .form_margin {
+            margin-top: 10px;
+        }
+        .resImg01 {
+            position: absolute;
+            top: -70px;
+            left: -76px;
+            zoom: .5;
+        }
+        .resImg02 {
+            position: absolute;
+            left: 3%;
+            top: 35%;
+            z-index: -1;
+            zoom: .5;
+            transform: rotate(6deg);
+        }
+        .resImg03 {
+            position: absolute;
+            right: 9px;
+            top: 63%;
+            z-index: -1;
+            zoom: 0.5;
+        }
+        /* ============================ Reservation End Here ============================ */
+
+        /* ============================ Footer Start Here ============================ */
+        #footer {
+            padding-top: 0;
+            padding-bottom: 25px;
+        }
+        .footerLogo {
+            width: 70%;
+        }
+        .footerLogo img {
+            width: 100%;
+        }
+        .footerText p {
+            margin-top: 20px;
+            letter-spacing: 1px;
+            line-height: 18px;
+        }
+        .footerTopRight {
+            margin-left: 0;
+        }
+        .footerAddText {
+            letter-spacing: 1px;
+        }
+        /* ============================ Footer End Here ============================ */
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+     /* ============================ Banner Part Start ============================ */
+     .bannerPart {
+        padding: 20px 0;
+    }
+    .btext {
+        width: 75%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .bh1 {
+        font-size: 70px;
+        margin: 10px 0;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bh2 {
+        font-size: 50px;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bimage {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ============================ Banner Part End ============================ */
+    /* ============================ Promotion Start ============================ */
+    #promo {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .leftPromo {
+        margin-left: 0;
+    }
+    .promo01Text {
+        top: 20px;
+        left: 20px;
+    }
+    .promo01Text h4 {
+        font-size: 20px;
+    }
+    .promo01Text h2 {
+        font-size: 30px;
+    }
+    .proRtopText {
+        top: 20px;
+        left: 20px;
+        width: 80%;
+    }
+    .promoRight {
+        margin-top: 0;
+    }
+    .proRtop h4 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .proRtop h2 {
+        font-size: 30px;
+    }
+    .proRbottomText {
+        top: 20px;
+        left: 20px;
+    }
+    .proRbottomText h4 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .proRbottomText h2 {
+        font-size: 30px;
+    }
+    /* ============================ Promotion End ============================ */
+    /* ============================ Choose & Enjoy Start Here ============================ */
+    .sliderTitle h2 {
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .sliderText {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sliderbtn a {
+        padding: 10px 0px;
+        width: 75%;
+    }
+    /* ============================ Choose & Enjoy End Here ============================ */
+
+    /* ============================ Events Start Here ============================ */
+    .eventLeft h4 {
+        font-size: 20px !important;
+    }
+    .eventLeft h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .eventLeft p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 40px;
+    }
+    /* ============================ Events End Here ============================ */
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+     /* ============================ Banner Part Start ============================ */
+     .bannerPart {
+        padding: 20px 0;
+    }
+    .btext {
+        width: 70%;
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .bh1 {
+        font-size: 110px;
+        margin: 10px 0;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bh2 {
+        font-size: 70px;
+        text-shadow: 2px 3px 0px white;
+    }
+    .bimage {
+        width: 90%;
+        margin: 0 auto;
+    }
+    /* ============================ Banner Part End ============================ */
+    /* ============================ Choose & Enjoy Start Here ============================ */
+    .sliderTitle h2 {
+        font-size: 25px;
+        letter-spacing: 0px;
+    }
+    .sliderText {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sliderbtn a {
+        padding: 10px 0px;
+        width: 75%;
+    }
+    /* ============================ Choose & Enjoy End Here ============================ */
+
+    /* ============================ Events Start Here ============================ */
+    .eventLeft h4 {
+        font-size: 20px !important;
+    }
+    .eventLeft h1 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .eventLeft p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 40px;
+    }
+    /* ============================ Events End Here ============================ */
+}
